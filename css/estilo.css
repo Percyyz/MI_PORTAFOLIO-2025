@@ -32,7 +32,7 @@ nav a{
     background: rgb(32, 216, 233);
     margin: 3px auto;
     padding: 60px;
-    height:90vh;
+    height:95vh;
     display: flex;
     flex-direction: column;
     
@@ -41,6 +41,7 @@ nav a{
     color: #2c3e50;
     font-size: 2rem;
     justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .card1 section {
     display: flex;          
@@ -58,7 +59,7 @@ nav a{
     height: auto;
     padding: 100px;
 }
-.card1 button {
+/* .card1 button {
     padding: 12px 30px;
     background: #2c3e50;
     color: white;
@@ -68,4 +69,34 @@ nav a{
     width: 150px;
     cursor: pointer;
     margin-left: 50rem;
+} */
+
+.card2{
+    background: rgb(115, 227, 237);
+    margin: 10px auto;
+    padding: 60px;
+    height:95vh;
+    /* display: flex; */
+}
+.card2-title{
+    color: #2c3e50;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card2-description{
+    padding-top: 20px;
+}
+
+.card3{
+    background: rgb(32, 216, 233);
+    margin: 10px auto;
+    padding: 60px;
+    height: 95vh;
+}
+
+.card4{
+    background: rgb(115, 227, 237);
+    margin: 10px auto;
+    padding: 60px;
+    height: 95vh;
 }
