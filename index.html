@@ -7,36 +7,83 @@
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
-    <header>MI PORTAFOLIO
+    <header>
+        <h1>MI PORTAFOLIO</h1>
         <nav>
-            <a href="">Inicio</a>
-            <a href="">Sobre mi</a>
-            <a href="">Proyectos</a>
-            <a href="">Contacto</a>
+            <a href="#Inicio">Inicio</a>
+            <a href="#Sobre-mi">Sobre mi</a>
+            <a href="#Proyectos">Proyectos</a>
+            <a href="#Contacto">Contacto</a>
         </nav>
     </header>
-    <section class="card1">
-        <h1 class="card1-title">Yarihuaman Mitma, Percy Noe</h1>
-        <section>
-            <p class="card1-description">Explorador de tecnología, creatividad y cultura. Este es mi rincón en la web donde comparto mis pasiones y aprendizajes.</p>
-            <img class="card1-img" src="./assets/LOGO TECNOLOGICO 2023-1.png" alt="">
+    <main>
+        <section id="Inicio">
+            <h1 class="card1-title">Yarihuaman Mitma, Percy Noe</h1>
+            <div class="contenido-horizontal">
+                <p class="card1-description">
+                    Explorador de tecnología, creatividad y cultura. Este es mi rincón en la web donde comparto mis pasiones y aprendizajes.
+                </p>
+                <img class="card1-img" src="./assets/MI IMAGEN3.jpeg" alt="Logo Tecnológico">
+            </div>
+            <div class="button">
+                <button>Contactanos</button>
+            </div>
         </section>
-        <button type="submit">Contactanos</button>
-    </section>
 
-    <section class="card2">
-        <h1 class="card2-title">SOBRE MI</h1>
-        <p class="card2-description">Soy Percy Noe Yarihuaman Mitma, estudiante del Instituto de Educacion Superior Tecnologico
-            Publico de Puquio, me gusta aprender mas sobre la tecnologia y sus cambios constantes. </p>
-    </section>
+        <section id="Sobre-mi">
+            <h1 class="card2-title">Sobre mi</h1>
+            <p class="card2-description">
+                Hola!!, soy Percy Noe Yarihuaman Mitma, estudiante del Programa de Estudios "APSTI" del Instituto de Educación Superior Tecnológico Público de Puquio "JMA" y me encanta aprender nuevas tecnologías y aplicarlas en proyectos reales.
+            </p>
+            <div class="skills-container">
+                <div class="skill-section">
+                    <h2>Habilidades Técnicas</h2>
+                    <ul>
+                        <li>Lenguaje (Python, JavaScript)</li>
+                        <li>Base de Datos (MySQL, PostgreSQL)</li>
+                        <li>Control de Versiones (Git)</li>
+                    </ul>
+                </div>
+                <div class="skill-section">
+                    <h2>Tecnologías Destacadas</h2>
+                    <div class="skill-bar">
+                        <span>HTML</span>
+                        <input type="range" min="0" max="100" value="85" class="progress-bar">
+                    </div>
+                    <div class="skill-bar">
+                        <span>CSS</span>
+                        <input type="range" min="0" max="100" value="75" class="progress-bar">
+                    </div>
+                    <div class="skill-bar">
+                        <span>Python</span>
+                        <input type="range" min="0" max="100" value="90" class="progress-bar">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="card3">
-         <h1>MIS PROYECTOS</h1>
-    </section>
+        <section id="Proyectos">
+            <h1 class="card3-title">Mis proyectos</h1>
+            <div class="containers">
+                <div class="proyecto1">
+                    <img src="./assets/task-organizer.png" alt="" width="150px">
+                    <h2>Task Organizer</h2>
+                    <a href="https://github.com/Percyyz/Task-Organizer_app">https://github.com/Percyyz/Task-Organizer_app</a>
+                    <a href="https://github.com/Percyyz/Task-Organizer_LandingPage">https://github.com/Percyyz/Task-Organizer_LandingPage</a>
+                </div>
+                <div class="proyecto2">
+                    <img src="" alt="">
+                </div>
+                <div class="proyecto3">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
 
-    <section class="card4">
-        <h1>CONTACTOS</h1>
-    </section>
+        <section id="Contacto">
+            <h1 class="card4-title">Contactos</h1>
+        </section>
+    </main>
 
     <script src="./js/funcionalidad.js"></script>
 </body>
