@@ -210,7 +210,6 @@ nav a:hover{
 /* Seccion Proyectos*/
 #Contacto{
     background: radial-gradient(circle,rgba(5, 177, 245, 1) 0%, rgba(102, 209, 255, 1) 47%, rgba(0, 157, 255, 1) 100%);
-    /* margin: 10px auto; */
     padding: 60px;
     height: 100vh;
     text-align: center;
@@ -219,4 +218,75 @@ nav a:hover{
     color: #2c3e50;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.redes-sociales a {
+    display: block;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3a03ff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.redes-sociales img{
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.formularios {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.formularios label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.formularios input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formularios button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #369bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 55%;
+    transition: background 0.3s ease;
+}
+.formularios button:hover{
+    background-color: #036bfd;
+}
+
+footer {
+    background-color: rgb(152, 152, 153);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
