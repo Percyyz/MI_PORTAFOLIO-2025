@@ -19,7 +19,7 @@ header{
 }
 header h1{
     font-size: 25px;
-    color: rgb(99, 66, 243);
+    color: blue
 }
 nav{
     display: flex;
@@ -48,6 +48,9 @@ nav a:hover{
     font-size: 2rem;
     margin-bottom: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-group {
+    text-align: center;
 }
 .contenido-horizontal{
     display: flex;
