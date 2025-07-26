@@ -7,7 +7,7 @@ body{
     background-color: rgb(152, 152, 153);
 }
 header{
-    background: rgb(152, 152, 153);
+    background: #369bff;
     height: 60px;
     padding: 0 20px;
     display: flex;
@@ -19,7 +19,7 @@ header{
 }
 header h1{
     font-size: 25px;
-    color: blue
+    color: #2c3e50
 }
 nav{
     display: flex;
@@ -200,6 +200,25 @@ nav a:hover{
     background-color: rgb(36, 134, 246);
     padding: 20px;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.proyecto2:hover{
+    transform: translateY(-5px);
+}
+.proyecto2 img{
+    max-width: 100%;
+}
+.proyecto2 h2{
+    margin-bottom: 50px;
+    color: #2c3e50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.proyecto2 a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.9rem;
 }
 .proyecto3{
     width: 30%;
