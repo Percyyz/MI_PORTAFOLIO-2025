@@ -154,7 +154,7 @@ nav a:hover{
     background: radial-gradient(circle,rgba(5, 177, 245, 1) 0%, rgba(102, 209, 255, 1) 47%, rgba(0, 157, 255, 1) 100%);
     margin: 10px auto;
     padding: 60px;
-    height: 100vh;
+    height: 150vh;
     text-align: center;
 }
 .card3-title{
@@ -255,6 +255,33 @@ nav a:hover{
 
 .proyecto3 button:hover {
   background-color: #036bfd;
+}
+
+.proyecto4{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(36, 134, 246);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.proyecto4:hover{
+    transform: translateY(-5px);
+}
+.proyecto4 img{
+    max-width: 100%;
+}
+.proyecto4 h2{
+    margin-bottom: 50px;
+    color: #2c3e50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.proyecto4 a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.9rem;
 }
 
 
