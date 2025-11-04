@@ -94,7 +94,7 @@ nav a:hover{
 }
 .button button{
     padding: 12px 30px;
-    background-color: #369bff;
+    background-color: rgb(102, 209, 255, 1);
     color: white;
     border: none;
     border-radius: 5px;
@@ -103,7 +103,7 @@ nav a:hover{
     transition: background 0.3s ease;
 }
 .button button:hover{
-    background-color: #036bfd;
+    background-color: #369bff;
 }
 
 
@@ -138,7 +138,7 @@ nav a:hover{
 .skill-section {
     width: 20%;
     height: 300px;
-    background-color: rgb(36, 134, 246);
+    background-color: #93fb8a;
     padding: 20px;
     border-radius: 10px;
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
@@ -150,13 +150,22 @@ nav a:hover{
 }
 .skill-section li {
     margin-bottom: 10px;
-    font-size: 1rem;
-    color: #333;
+    font-size: 14px;
+    color: #2c3e50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
 }
 .skill-bar {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    padding-top: 20px;
+    gap: 20px;
+}
+.skill-bar span {
+    color: #2c3e50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
 }
 
 
@@ -185,7 +194,7 @@ nav a:hover{
 .proyecto1{
     width: 30%;
     height: 400px;
-    background-color: rgb(36, 134, 246);
+    background-color: #93fb8a;
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -211,7 +220,7 @@ nav a:hover{
 .proyecto2{
     width: 30%;
     height: 400px;
-    background-color: rgb(36, 134, 246);
+    background-color: #93fb8a;
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -237,7 +246,7 @@ nav a:hover{
 .proyecto3{
     width: 30%;
     height: 400px;
-    background-color: rgb(36, 134, 246);
+    background-color: #93fb8a;
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -255,7 +264,7 @@ nav a:hover{
 }
 .proyecto3 button {
   padding: 10px 20px;
-  background-color: #369bff;
+  background-color: rgb(102, 209, 255, 1);
   color: #000000;
   border: none;
   border-radius: 8px;
@@ -265,13 +274,13 @@ nav a:hover{
 }
 
 .proyecto3 button:hover {
-  background-color: #036bfd;
+  background-color: #369bff;
 }
 
 .proyecto4{
     width: 30%;
     height: 400px;
-    background-color: rgb(36, 134, 246);
+    background-color: #93fb8a;
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -303,8 +312,34 @@ nav a:hover{
     margin-top: 10px;
     border: 1px solid #2c3e50;
     border-radius: 10px;
+    background-color: #e3e4e5;
 }
-
+.proyecto5{
+    width: 30%;
+    height: 400px;
+    background-color: #93fb8a;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.proyecto5:hover{
+    transform: translateY(-5px);
+}
+.proyecto5 img{
+    max-width: 100%;
+}
+.proyecto5 h2{
+    margin-bottom: 50px;
+    color: #2c3e50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.proyecto5 a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.9rem;
+}
 
 
 /* Seccion Proyectos*/
@@ -347,7 +382,8 @@ nav a:hover{
 .formularios {
     padding: 20px;
     border-radius: 10px;
-    border: 3px solid;
+    border: 5px solid;
+    border-color: #93fb8a;
     width: 300px;
     flex-shrink: 0;
 }
@@ -372,7 +408,7 @@ nav a:hover{
 .formularios button {
     margin-top: 20px;
     padding: 12px 30px;
-    background-color: #369bff;
+    background-color: rgb(102, 209, 255, 1);
     color: white;
     border: none;
     border-radius: 5px;
@@ -381,7 +417,7 @@ nav a:hover{
     transition: background 0.3s ease;
 }
 .formularios button:hover{
-    background-color: #036bfd;
+    background-color: #369bff;
 }
 
 footer {
