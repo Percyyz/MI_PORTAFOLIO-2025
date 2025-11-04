@@ -19,6 +19,20 @@ header{
     position: fixed;
     width: 100%;
 }
+.menu-icon {
+    display: none; /* Oculto por defecto en escritorio */
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333; /* Color de las líneas */
+    margin: 5px 0;
+    transition: 0.4s;
+    border-radius: 2px;
+}
 header div {
     display: flex;
     gap: 10px
@@ -425,4 +439,157 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+
+
+/* responsivo*/
+@media (max-width: 600px) {
+    header {
+        height: 60px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    header div:first-child {
+        width: auto;
+        margin-bottom: 0;
+    }
+    .menu-icon {
+        display: block; 
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        z-index: 1001;
+    }
+
+    nav {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        left: auto;
+        width: 180px;
+        max-width: 80%;
+        
+        /* Estilos visuales del desplegable */
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        padding: 5px 0;
+        gap: 0; 
+    }
+    nav a {
+        padding: 10px 20px;
+        color: #000000;
+        text-align: left;
+        border-bottom: none;
+    }
+    nav a:last-child {
+        border-bottom: none;
+    }
+    nav a:hover {
+        background-color: #f0f0f0;
+        color: #369bff;
+        text-decoration: none;
+    }
+    .nav-visible {
+        display: flex;
+    }
+
+    /* INICIO - La sección principal */
+    #Inicio, #Sobre-mi, #Contacto {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .contenido-horizontal {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .card1-title {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .card1-img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* SOBRE MI - Habilidades */
+    .card2-description {
+        padding-top: 30px;
+        max-width: 100%;
+        margin: 0 auto 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .skill-section {
+        width: 90%;
+        height: auto;
+    }
+
+    /* PROYECTOS - Las tarjetas de proyectos */
+    #Proyectos {
+        height: auto;
+        padding: 20px;
+    }
+
+    .containers {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .proyecto1, .proyecto2, .proyecto3, .proyecto4, .proyecto5 {
+        width: 90%;
+        height: auto;
+    }
+    
+    .proyecto1 h2, .proyecto2 h2, .proyecto5 h2 {
+        margin-bottom: 20px;
+    }
+
+    .proyecto4 img {
+        max-width: 50%;
+    }
+
+    .redes-sociales {
+        flex-direction: column;
+        gap: 40px;
+        padding: 30px 10px;
+    }
+
+    .redes-sociales div:first-child {
+        text-align: center;
+        width: 100%;
+    }
+
+    .redes-sociales a {
+        display: inline-block;
+        margin: 0 10px 10px 10px;
+    }
+    
+    .redes-sociales img{
+        width: 25px; 
+    }
+
+    .formularios {
+        width: 90%;
+        max-width: 300px;
+    }
 }
