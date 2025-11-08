@@ -591,13 +591,7 @@ footer {
     .proyecto4 img {
         max-width: 50%;
     }
-    .proyecto4 div {
-        margin-bottom: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-top: 10px;
-    }
-
+    
     .redes-sociales {
         flex-direction: column;
         gap: 40px;
